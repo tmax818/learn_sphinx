@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Paragraph &#8212; learn sphinx 0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Images" href="image.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="paragraph">
+<h1>Paragraph<a class="headerlink" href="#paragraph" title="Permalink to this headline">¶</a></h1>
+<p>Paragraphs contain text and may contain inline markup:
+<em>emphasis</em>, <strong>strong emphasis</strong>, <cite>interpreted text</cite>, <code class="docutils literal notranslate"><span class="pre">inline</span>
+<span class="pre">literals</span></code>, standalone hyperlinks (<a class="reference external" href="http://www.python.org">http://www.python.org</a>),
+external hyperlinks (<a class="reference external" href="http://www.python.org">Python</a>), internal cross-references
+(<a href="#id6"><span class="problematic" id="id7">example_</span></a>), footnote references (<a class="footnote-reference brackets" href="#id3" id="id1">1</a>), citation references
+(<a class="reference internal" href="#cit2002" id="id2"><span>[CIT2002]</span></a>), substitution references (<a href="#id4"><span class="problematic" id="id5">|example|</span></a>), and <span class="target" id="inline-internal-targets">inline
+internal targets</span>.</p>
+<p>Paragraphs are separated by blank lines and are left-aligned. Adding the following will change the appearance of the above…</p>
+<p>footnote reference</p>
+<dl class="footnote brackets">
+<dt class="label" id="id3"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>A footnote contains body elements, consistently
+indented by at least 3 spaces.</p>
+</dd>
+</dl>
+<p>citations</p>
+<dl class="citation">
+<dt class="label" id="cit2002"><span class="brackets"><a class="fn-backref" href="#id2">CIT2002</a></span></dt>
+<dd><p>Just like a footnote, except the label is
+textual.</p>
+</dd>
+</dl>
+<p>external hyperlinks</p>
+<p>substitution definition</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>paragraph</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="field-list simple">
+<dt class="field-odd">Date</dt>
+<dd class="field-odd"><p>2001-08-16</p>
+</dd>
+<dt class="field-even">Version</dt>
+<dd class="field-even"><p>1</p>
+</dd>
+<dt class="field-odd">Authors</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p>Me</p></li>
+<li><p>Myself</p></li>
+<li><p>I</p></li>
+</ul>
+</dd>
+<dt class="field-even">Indentation</dt>
+<dd class="field-even"><p>Since the field marker may be quite long, the second
+and subsequent lines of the field body do not have to line up
+with the first line, but they must be indented relative to the
+field name marker, and they must line up with each other.</p>
+</dd>
+<dt class="field-odd">Parameter i</dt>
+<dd class="field-odd"><p>integer</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>::</dt><dd><p>this has the colon-colon thing</p>
+</dd>
+</dl>
+<p>Paragraph:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Literal</span> <span class="n">block</span>
+</pre></div>
+</div>
+<p>Paragraph:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Literal</span> <span class="n">block</span>
+</pre></div>
+</div>
+<p>Paragraph:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Literal</span> <span class="n">block</span>
+<span class="o">*</span><span class="n">italics</span><span class="o">*</span>
+</pre></div>
+</div>
+<p>John Doe wrote:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&gt;&gt; Great idea!
+&gt;
+&gt; Why didn&#39;t I think of that?
+</pre></div>
+</div>
+<p>You just did!  ;-)</p>
+<p><strong>line blocks</strong></p>
+<div class="line-block">
+<div class="line">Lend us a couple of bob till Thursday.</div>
+<div class="line">I’m absolutely skint.</div>
+<div class="line">But I’m expecting a postal order and I can pay you back
+as soon as it comes.</div>
+<div class="line">Love, Ewan.</div>
+</div>
+<p>example</p>
+<p>Take it away, Eric the Orchestra Leader!</p>
+<blockquote>
+<div><div class="line-block">
+<div class="line">A one, two, a one two three four</div>
+<div class="line"><br /></div>
+<div class="line">Half a bee, philosophically,</div>
+<div class="line-block">
+<div class="line">must, <em>ipso facto</em>, half not be.</div>
+</div>
+<div class="line">But half the bee has got to be,</div>
+<div class="line-block">
+<div class="line"><em>vis a vis</em> its entity.  D’you see?</div>
+<div class="line"><br /></div>
+</div>
+<div class="line">But can a bee be said to be</div>
+<div class="line-block">
+<div class="line">or not to be an entire bee,</div>
+<div class="line-block">
+<div class="line">when half the bee is not a bee,</div>
+<div class="line-block">
+<div class="line">due to some ancient injury?</div>
+<div class="line"><br /></div>
+</div>
+</div>
+</div>
+<div class="line">Singing…</div>
+</div>
+</div></blockquote>
+<dl class="simple">
+<dt>::</dt><dd><p><em>emphasis</em>      | <em>emphasis</em></p>
+</dd>
+</dl>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">learn sphinx</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="intro.html">Welcome to the Introduction</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="howto.html">How To…</a></li>
+<li class="toctree-l2"><a class="reference internal" href="markup.html">Inline Markup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="listsquotes.html">Lists and Quote-like blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tables.html">Tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="math.html">Math</a></li>
+<li class="toctree-l2"><a class="reference internal" href="footnotes.html">Footnotes and Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="image.html">Images</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Paragraph</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="intro.html">Welcome to the Introduction</a><ul>
+      <li>Previous: <a href="image.html" title="previous chapter">Images</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Tyler Maxwell.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/Introduction/paragraph.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

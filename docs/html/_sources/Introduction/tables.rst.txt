@@ -81,6 +81,6 @@ col 1  col 2
 This is a link to the `tables`_ docs.
 
 
-
+----
 
 .. _tables: https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#table-directives

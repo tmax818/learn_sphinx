@@ -10,5 +10,6 @@ Welcome to the Introduction
    math
    footnotes
    image
+   paragraph 
 
 
